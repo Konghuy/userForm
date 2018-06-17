@@ -35,24 +35,9 @@
                 $userinfo[] = $row_user;
             }
             
-            // //print_r($userinfo);
-            // echo $userinfo[0]['user_names'];
-            // echo $userinfo[0]['user_pwd'];
-                if(
-                    $userinfo[0]['user_names'] == $user &&
-                    $userinfo[0]['user_pwd'] == $pwd
-                ){
                     header("LOCATION: index.php");
                     $_SESSION['user']= $user;
-                   // echo $_SESSION['user'];
-                }else {
-                    $errors = "Invalide User name and Password";
-                    header("LOCATION: SignIn.php?user=$user&pwd=$pwd");
-                }
-
-            }
-        //continue;
         $_SESSION['errors'] = $errors;
-
+    }
     //mysql_free_result($results);
 ?>
