@@ -1,0 +1,43 @@
+h1{
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form{
+    display: inline-block;
+}
+body{
+    text-align: center;
+    background: cornflowerblue;
+}
+.text, .button,.button1{
+    display: inline-block;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    text-indent: 5px;
+    
+    
+}
+.button{
+    padding: 5px;
+    background-color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button1{
+    width: 48%;
+    display: inline;
+    padding: 5px;
+    background-color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.errors{
+    
+    color:red; 
+    border: 1px solid rgba(124, 2, 2, 0.966) ;
+    background: rgb(255, 226, 231);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
