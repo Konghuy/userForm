@@ -13,7 +13,7 @@
     }
     else{
 
-        $sql = "SELECT user_names, user_pwd FROM tbuser WHERE user_names = '$user'";
+        $sql = "SELECT user_names, user_pwd FROM tbuser WHERE user_names = '$user' AND 'user_pwd'";
         $results = mysqli_query($conn, $sql);
         $userinfo = array();
 
